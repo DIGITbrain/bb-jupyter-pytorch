@@ -8,3 +8,5 @@ services:
       - 8888:8888
     environment:
       - JUPYTER_PASSWORD=jupyterlab
+    volumes:
+      - ./pytorch/data:/pytorch

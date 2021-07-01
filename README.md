@@ -39,6 +39,7 @@ docker run -d --rm \
 |-|-|-|
 |Port|`-p 8888:8888`|JupyterLab WebGUI|
 |Volume|`$HOME/pytorch/data:/pytorch`|Persist pytorch data|
+|Env|`-e JUPYTER_PASSWORD=jupyterlab`|Define JupyterLab password|
 
 
 ## Testing
@@ -50,3 +51,11 @@ Run the example notebook at `/example/pytorch.ipynb`.
 # Authentication
 
 The WebUIs are protected by password. The default password is "jupyterlab", which can be changed with `JUPYTER_PASSWORD` enviroment variable.
+
+# Reference
+
+https://pytorch.org/docs/stable/index.html
+
+https://pytorch.org/docs/stable/torch.html
+
+https://jupyterlab.readthedocs.io/en/stable/
