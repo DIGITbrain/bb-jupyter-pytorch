@@ -14,7 +14,7 @@ BSD
 
 ## Version
 
-1.8.1 (CPU)
+2.x (CPU)
 
 ## Description
 
